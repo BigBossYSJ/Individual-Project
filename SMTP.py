@@ -12,7 +12,7 @@ password = getpass.getpass("Please enter your password : ") # enter your passwor
 
 # specify who the sender and the receiver
 sender = "hahakerol@gmail.com"
-receiver = "syadrasyad@gmail.com"
+receiver = "hahakerol@gmail.com"
 
 # type any message to send to the receiver
 message = f"""\
@@ -20,7 +20,7 @@ Subject: mic drop 321 sila makan jambu batu
 To: {receiver}
 From: {sender}
 
-Aku push github duluuuuu. HOHOHOH!"""
+Kita push github duluuuuu. Alhamdulillah syukur nikmat tuhan."""
 
 try:
     #smtp credentials
