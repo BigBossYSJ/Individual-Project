@@ -11,7 +11,7 @@ login = input("\nPlease enter your gmail : ") # enter your mail
 password = getpass.getpass("\nPlease enter your password : ") # enter your password
 
 # specify who the sender and the receiver:
-sender = "hahakerol@gmail.com"
+sender = login
 receiver = input("\nPlease enter the receiver gmail : ")
 
 # type any message to send to the receiver:
